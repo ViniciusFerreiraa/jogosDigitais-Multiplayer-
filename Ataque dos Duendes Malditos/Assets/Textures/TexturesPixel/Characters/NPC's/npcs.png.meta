@@ -1,0 +1,451 @@
+fileFormatVersion: 2
+guid: d0d03326a82df654a834d42cc40ddcd7
+timeCreated: 1433458393
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: npcs_0
+    21300002: npcs_1
+    21300004: npcs_2
+    21300006: npcs_3
+    21300008: npcs_4
+    21300010: npcs_5
+    21300012: npcs_6
+    21300014: npcs_7
+    21300016: npcs_8
+    21300018: npcs_9
+    21300020: npcs_10
+    21300022: npcs_11
+    21300024: npcs_12
+    21300026: npcs_13
+    21300028: npcs_14
+    21300030: npcs_15
+    21300032: npcs_16
+    21300034: npcs_17
+    21300036: npcs_18
+    21300038: npcs_19
+    21300040: npcs_20
+    21300042: npcs_21
+    21300044: npcs_22
+    21300046: npcs_23
+    21300048: npcs_24
+    21300050: npcs_25
+    21300052: npcs_26
+    21300054: npcs_27
+    21300056: npcs_28
+    21300058: npcs_29
+    21300060: npcs_30
+    21300062: npcs_31
+    21300064: npcs_32
+    21300066: npcs_33
+    21300068: npcs_34
+    21300070: npcs_35
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: npcs_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 69
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 69
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 69
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_3
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 69
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_4
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 69
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_5
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 69
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_6
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 69
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_7
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 69
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_8
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 69
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_9
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 69
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_10
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 69
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_11
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 69
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 36
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_13
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 36
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_14
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 36
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_15
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 36
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 36
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_17
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 36
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_18
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 36
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_19
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 36
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_20
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 36
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_21
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 36
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_22
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 36
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_23
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 36
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 4
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_25
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 4
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_26
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 4
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_27
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 4
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_28
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 4
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_29
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 4
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_30
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 4
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_31
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 4
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_32
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 3
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_33
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 3
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_34
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 3
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npcs_35
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 3
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

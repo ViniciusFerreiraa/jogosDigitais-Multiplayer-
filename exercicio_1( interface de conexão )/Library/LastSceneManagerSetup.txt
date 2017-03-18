@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/tela_de_login.unity
+  isLoaded: 1
+  isActive: 1

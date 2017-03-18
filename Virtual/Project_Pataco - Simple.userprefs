@@ -1,0 +1,28 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Menu.js">
+    <Files>
+      <File FileName="Assets\Scripts\ButtonAnimationMenu.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Pause.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\RandomLvl.js" Line="3" Column="1" />
+      <File FileName="Assets\Scripts\RespawPlayer.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CameraFollow.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ControllButtomBlue.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ControllBottomYelow.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ControllButtomRed.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ButtonAnimationMenu.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Score.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ScoreTotal.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\dont destroy.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ButtonAnimationStage.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Map.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MapDuck.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Menu.js" Line="5" Column="39" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

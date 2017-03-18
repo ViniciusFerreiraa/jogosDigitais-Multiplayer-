@@ -1,0 +1,132 @@
+fileFormatVersion: 2
+guid: 269261d97d204024bac6b23f07e9a89b
+timeCreated: 1433447360
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Box004
+    100002: casinha normal
+    100004: casinha normal004
+    100006: casinha normal006
+    100008: casinha saida
+    100010: casinha saida004
+    100012: casinha saida005
+    100014: casinha saida006
+    100016: fazenda
+    100018: ferreiro001
+    100020: //RootNode
+    100022: pedra viking
+    100024: Plane001
+    100026: plano andavel
+    400000: Box004
+    400002: casinha normal
+    400004: casinha normal004
+    400006: casinha normal006
+    400008: casinha saida
+    400010: casinha saida004
+    400012: casinha saida005
+    400014: casinha saida006
+    400016: fazenda
+    400018: ferreiro001
+    400020: //RootNode
+    400022: pedra viking
+    400024: Plane001
+    400026: plano andavel
+    2300000: Box004
+    2300002: casinha normal
+    2300004: casinha normal004
+    2300006: casinha normal006
+    2300008: casinha saida
+    2300010: casinha saida004
+    2300012: casinha saida005
+    2300014: casinha saida006
+    2300016: fazenda
+    2300018: ferreiro001
+    2300020: pedra viking
+    2300022: Plane001
+    2300024: plano andavel
+    3300000: Box004
+    3300002: casinha normal
+    3300004: casinha normal004
+    3300006: casinha normal006
+    3300008: casinha saida
+    3300010: casinha saida004
+    3300012: casinha saida005
+    3300014: casinha saida006
+    3300016: fazenda
+    3300018: ferreiro001
+    3300020: pedra viking
+    3300022: Plane001
+    3300024: plano andavel
+    4300000: casinha saida
+    4300002: pedra viking
+    4300004: casinha normal
+    4300006: plano andavel
+    4300008: fazenda
+    4300010: casinha normal004
+    4300012: Box004
+    4300014: Plane001
+    4300016: ferreiro001
+    4300018: casinha normal006
+    4300020: casinha saida004
+    4300022: casinha saida005
+    4300024: casinha saida006
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
