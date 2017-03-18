@@ -1,7 +1,7 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{615E6F9B-ACA5-553D-4468-3A098D342B70}") = "Virtual", "Assembly-UnityScript.unityproj", "{70C3747A-3570-31D7-4838-CAA90F6B2975}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Virtual", "Assembly-UnityScript.unityproj", "{70C3747A-3570-31D7-4838-CAA90F6B2975}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,5 +35,4 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
-
 EndGlobal

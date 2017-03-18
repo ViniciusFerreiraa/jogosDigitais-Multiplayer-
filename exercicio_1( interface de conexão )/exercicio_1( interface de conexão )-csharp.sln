@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{ABD310C0-1E40-D869-AE8D-E1B5F1EB6909}") = "exercicio_1( interface de conexão )", "Assembly-CSharp-vs.csproj", "{43C3DA6E-1F3A-8776-0AA0-6307157C846B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43C3DA6E-1F3A-8776-0AA0-6307157C846B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43C3DA6E-1F3A-8776-0AA0-6307157C846B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43C3DA6E-1F3A-8776-0AA0-6307157C846B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43C3DA6E-1F3A-8776-0AA0-6307157C846B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+					GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+
+EndGlobal

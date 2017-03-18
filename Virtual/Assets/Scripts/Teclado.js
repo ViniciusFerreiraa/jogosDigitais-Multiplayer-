@@ -44,6 +44,9 @@ private var podEntrar				: boolean = true;
 
 public var snd_bt				   	: AudioSource;
 
+
+private var rend: Renderer;
+
 function Start ()
 {
 	currentSpeed = Mathf.Lerp(0, 20, (currentTime / 60));
@@ -52,6 +55,10 @@ function Start ()
 	bt_Voltar.SetActive(true);
 	bt_goToGame2.SetActive(true);	
 	selecionado = 0;
+
+
+	rend = GetComponent.<Renderer>();
+	//renderer.enabled = true;
 }
 
 function Update ()
@@ -113,10 +120,10 @@ function Update ()
 		
 		if(selecionado == 0)
 		{
-			bt_Iniciar.renderer.material.SetTextureOffset ("_MainTex", Vector2 (0.5, 0));
-			bt_Creditos.renderer.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
-			bt_Instrucoes.renderer.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
-			bt_Sair.renderer.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
+			bt_Iniciar.rend.material.SetTextureOffset ("_MainTex", Vector2 (0.5, 0));
+			bt_Creditos.rend.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
+			bt_Instrucoes.rend.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
+			bt_Sair.rend.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
 			bonequinho_1.gameObject.SetActive(true);
 			bonequinho_2.gameObject.SetActive(false);
 			bonequinho_3.gameObject.SetActive(false);
@@ -124,10 +131,10 @@ function Update ()
 		}
 		if(selecionado == 1)
 		{
-			bt_Iniciar.renderer.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
-			bt_Creditos.renderer.material.SetTextureOffset ("_MainTex", Vector2 (0.5, 0));
-			bt_Instrucoes.renderer.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
-			bt_Sair.renderer.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
+			bt_Iniciar.rend.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
+			bt_Creditos.rend.material.SetTextureOffset ("_MainTex", Vector2 (0.5, 0));
+			bt_Instrucoes.rend.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
+			bt_Sair.rend.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
 			bonequinho_1.gameObject.SetActive(false);
 			bonequinho_2.gameObject.SetActive(true);
 			bonequinho_3.gameObject.SetActive(false);
@@ -135,10 +142,10 @@ function Update ()
 		}
 		if(selecionado == 2)
 		{
-			bt_Iniciar.renderer.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
-			bt_Creditos.renderer.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
-			bt_Instrucoes.renderer.material.SetTextureOffset ("_MainTex", Vector2 (0.5, 0));
-			bt_Sair.renderer.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
+			bt_Iniciar.rend.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
+			bt_Creditos.rend.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
+			bt_Instrucoes.rend.material.SetTextureOffset ("_MainTex", Vector2 (0.5, 0));
+			bt_Sair.rend.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
 			bonequinho_1.gameObject.SetActive(false);
 			bonequinho_2.gameObject.SetActive(false);
 			bonequinho_3.gameObject.SetActive(true);
@@ -146,10 +153,10 @@ function Update ()
 		}
 		if(selecionado == 3)
 		{
-			bt_Iniciar.renderer.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
-			bt_Creditos.renderer.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
-			bt_Instrucoes.renderer.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
-			bt_Sair.renderer.material.SetTextureOffset ("_MainTex", Vector2 (0.5, 0));
+			bt_Iniciar.rend.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
+			bt_Creditos.rend.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
+			bt_Instrucoes.rend.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
+			bt_Sair.rend.material.SetTextureOffset ("_MainTex", Vector2 (0.5, 0));
 			bonequinho_1.gameObject.SetActive(false);
 			bonequinho_2.gameObject.SetActive(false);
 			bonequinho_3.gameObject.SetActive(false);

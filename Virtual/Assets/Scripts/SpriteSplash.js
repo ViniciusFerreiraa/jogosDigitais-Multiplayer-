@@ -3,6 +3,15 @@ public	var uvAnimationTileY 		: int;										// número de linhas da sprite
 public	var framesPerSecond 		: float;										// frames por segundo
 public	var start					: boolean;
 
+
+public var rend: Renderer;
+
+
+function Start()
+{
+	rend = GetComponent.<Renderer>();
+}
+
 function Update () 
 {
 	if (start)
@@ -18,14 +27,14 @@ function Update ()
 		
 		var offset = Vector2 (uIndex * size.x, 1.0 - size.y - vIndex * size.y);				// criando o offset
 	 
-		renderer.material.SetTextureOffset ("_MainTex", offset);							// setando offset da textura
-		renderer.material.SetTextureScale ("_MainTex", size);								// setando escada da textura
+		rend.material.SetTextureOffset ("_MainTex", offset);							// setando offset da textura
+		rend.material.SetTextureScale ("_MainTex", size);								// setando escada da textura
 	}
 	if (index == 6)
 	{
 		start = false;
 		index = 0;
 		offset.x = 0;
-		renderer.material.SetTextureOffset ("_MainTex", offset);
+		rend.material.SetTextureOffset ("_MainTex", offset);
 	}
 }

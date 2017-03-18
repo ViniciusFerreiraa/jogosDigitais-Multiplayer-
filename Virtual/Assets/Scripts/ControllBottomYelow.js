@@ -18,8 +18,13 @@ private	var arButYellow;
 private	var currentObject				: GameObject;
 private var player						: GameObject;
 
+
+public var rend: Renderer;
+public var myCollider: Collider;
 function Start()
 {
+	rend = GetComponent.<Renderer>();
+	myCollider = GetComponent.<Collider>();
 	player = GameObject.Find("Player");
 
 	arBlue		= GameObject.FindGameObjectsWithTag ("Blue");
@@ -105,14 +110,14 @@ function Change()
 
 function Active()
 {
-	currentObject.renderer.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
-	currentObject.collider.isTrigger = false;
+	currentObject.rend.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
+	currentObject.myCollider.isTrigger = false;
 }
 
 function Deactive()
 {
-	currentObject.renderer.material.SetTextureOffset ("_MainTex", Vector2 (0.5, 0));
-	currentObject.collider.isTrigger = true;
+	currentObject.rend.material.SetTextureOffset ("_MainTex", Vector2 (0.5, 0));
+	currentObject.myCollider.isTrigger = true;
 }
 
 // ---------- BUTTONS ---------
@@ -120,21 +125,21 @@ function ActiveButtonBlue()
 {
 	for (var tempButBlue:GameObject in arButBlue)
 	{
-		tempButBlue.renderer.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
+		tempButBlue.rend.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
 	}
 }
 function ActiveButtonRed()
 {
 	for (var tempButRed:GameObject in arButRed)
 	{
-		tempButRed.renderer.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
+		tempButRed.rend.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
 	}
 }
 function ActiveButtonYellow()
 {
 	for (var tempButYellow:GameObject in arButYellow)
 	{
-		tempButYellow.renderer.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
+		tempButYellow.rend.material.SetTextureOffset ("_MainTex", Vector2 (0, 0));
 	}
 }
 // deactive //
@@ -142,21 +147,21 @@ function DeactiveButtonBlue()
 {
 	for (var tempButBlue:GameObject in arButBlue)
 	{
-		tempButBlue.renderer.material.SetTextureOffset ("_MainTex", Vector2 (0.5, 0));
+		tempButBlue.rend.material.SetTextureOffset ("_MainTex", Vector2 (0.5, 0));
 	}
 }
 function DeactiveButtonRed()
 {
 	for (var tempButRed:GameObject in arButRed)
 	{
-		tempButRed.renderer.material.SetTextureOffset ("_MainTex", Vector2 (0.5, 0));
+		tempButRed.rend.material.SetTextureOffset ("_MainTex", Vector2 (0.5, 0));
 	}
 }
 function DeactiveButtonYellow()
 {
 	for (var tempButYellow:GameObject in arButYellow)
 	{
-		tempButYellow.renderer.material.SetTextureOffset ("_MainTex", Vector2 (0.5, 0));
+		tempButYellow.rend.material.SetTextureOffset ("_MainTex", Vector2 (0.5, 0));
 	}
 }
 

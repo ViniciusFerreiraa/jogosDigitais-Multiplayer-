@@ -2,14 +2,16 @@
 
 private	var alphaControll			: boolean;
 
+public var rend: Renderer;
 function Start()
 {
+	rend = GetComponent.<Renderer>();
 	alphaControll = false;
 	thisScale = this.transform.localScale;
-	this.transform.renderer.material.color.a = 0.5;
+	this.transform.rend.material.color.a = 0.5;
 	yield WaitForSeconds (5f);
 	alphaControll = true;
-	this.transform.renderer.material.color.a = 1;
+	this.transform.rend.material.color.a = 1;
 }
 
 function OnMouseDown()
@@ -23,7 +25,7 @@ function OnMouseUp()
 {
 	if (!alphaControll)
 		return;
-	this.transform.renderer.material.color.a = 1;
+	this.transform.rend.material.color.a = 1;
 	this.transform.localScale = thisScale;
 }
 
@@ -31,12 +33,12 @@ function OnMouseEnter()
 {	
 	if (!alphaControll)
 		return;
-	this.transform.renderer.material.color.a = 0.5;
+	this.transform.rend.material.color.a = 0.5;
 }
 
 function OnMouseExit()
 {
 	if (!alphaControll)
 		return;
-	this.transform.renderer.material.color.a = 1;
+	this.transform.rend.material.color.a = 1;
 }

@@ -1,7 +1,9 @@
 ﻿static	var isGrounded		: boolean;
 
+public var rend: Renderer;
 function Start()
 {
+	rend = GetComponent.<Renderer>();
 	isGrounded = false;
 }
 
@@ -12,7 +14,7 @@ function OnTriggerStay ( other : Collider )
 		var Children = other.gameObject.GetComponentsInChildren(Transform);
 		for (var child : Transform in Children)
 		{
-		    child.transform.renderer.material.color.a = 0.5;
+		    child.transform.rend.material.color.a = 0.5;
 		}
 	}
 }
@@ -24,7 +26,7 @@ function OnTriggerExit ( other : Collider )
 		var Children = other.gameObject.GetComponentsInChildren(Transform);
 		for (var child : Transform in Children)
 		{
-		    child.transform.renderer.material.color.a = 1;
+		    child.transform.rend.material.color.a = 1;
 		}
 	}
 }

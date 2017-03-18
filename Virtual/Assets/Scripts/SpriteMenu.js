@@ -12,10 +12,17 @@ static	var stop					: String;
 
 static	var currentTime				: float;
 
+public var rend: Renderer;
+
 function Awake()
 {		
 	if (this.transform.name == "BGMenuAnim1")
 		stop = "BGMenuAnim1";
+}
+
+function Start()
+{
+	rend = GetComponent.<Renderer>();
 }
 
 function Update () 
@@ -35,8 +42,8 @@ function Update ()
 		
 		var offset = Vector2 (uIndex * size.x, 1.0 - size.y - vIndex * size.y);					// criando o offset
 	 
-		renderer.material.SetTextureOffset ("_MainTex", offset);							// setando offset da textura
-		renderer.material.SetTextureScale ("_MainTex", size);								// setando escada da textura
+		rend.material.SetTextureOffset ("_MainTex", offset);							// setando offset da textura
+		rend.material.SetTextureScale ("_MainTex", size);								// setando escada da textura
 			
 		if (index == 5)
 		{		

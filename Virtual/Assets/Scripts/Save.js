@@ -7,8 +7,12 @@ public	var tButtonContinue		: GameObject;
 public	var tOptions			: GameObject;
 public	var tDificulty			: GameObject;
 
+public var rend: Renderer;
+
 function Start()
 {
+	rend = GetComponent.<Renderer>();
+
 	tDificulty.transform.position.y = 0;
 	tDificulty.SetActive(false);
 	
@@ -27,10 +31,10 @@ function Update()
 
 	if (whoIsOpen > 1)
 	{
-		tButtonContinue.transform.renderer.material.color.a = 1;
+		tButtonContinue.transform.rend.material.color.a = 1;
 	}
 	else
-		tButtonContinue.transform.renderer.material.color.a = 0.5;
+		tButtonContinue.transform.rend.material.color.a = 0.5;
 						
 	#if UNITY_STANDALONE || UNITY_EDITOR || UNITY_WEBPLAYER
 	if (Input.GetButtonUp ("MouseClick"))

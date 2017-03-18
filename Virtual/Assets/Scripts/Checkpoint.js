@@ -22,10 +22,11 @@ public var controle_mario				: GameObject;
 public var controle_sonic				: GameObject;
 public var controle_mega				: GameObject;
 
-
+public var rend: Renderer;
 
 function Start () 
 {
+	rend = GetComponent.<Renderer>();
 //	tCheckpoints		= GameObject.Find("Checkpoints");
 //	_Question			= GameObject.Find("Question").GetComponent(Question);
 	whichCheck			= "";
@@ -113,17 +114,17 @@ function OnTriggerEnter ( other : Collider )
 		if(Application.loadedLevelName.Contains ("StageMario"))
 		{
 			controle_mario.SetActive(true);
-			controle_mario.renderer.material.SetTextureOffset ("_MainTex", Vector2 (0.5, 0));
+			controle_mario.rend.material.SetTextureOffset ("_MainTex", Vector2 (0.5, 0));
 		}
 		if(Application.loadedLevelName.Contains ("StageMegaman"))
 		{
 			controle_mega.SetActive(true);
-			controle_mega.renderer.material.SetTextureOffset ("_MainTex", Vector2 (0.5, 0));
+			controle_mega.rend.material.SetTextureOffset ("_MainTex", Vector2 (0.5, 0));
 		}
 		if(Application.loadedLevelName.Contains ("StageSonic"))
 		{
 			controle_sonic.SetActive(true);
-			controle_sonic.renderer.material.SetTextureOffset ("_MainTex", Vector2 (0.5, 0));
+			controle_sonic.rend.material.SetTextureOffset ("_MainTex", Vector2 (0.5, 0));
 		}
 		_OpenDoor.isOpen = true;
 	}

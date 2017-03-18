@@ -60,6 +60,11 @@ private var selecionado_t_c				: int;
 
 private var pausado						: boolean = true;
 
+
+
+public var rend: Renderer;
+
+
 function Awake()
 {
 	tPause				= GameObject.Find("Pause");
@@ -74,6 +79,7 @@ function Awake()
 
 function Start()
 {	
+	rend = GetComponent.<Renderer>();
 	selecionado = 0;
 	selecionado_died = 0;
 	selecionado_t_c = 0;
@@ -88,7 +94,7 @@ function Update()
 {	
 	if (keyControll && key)
 	{
-		tInterfaceKey.transform.renderer.material.color.a = 1;
+		tInterfaceKey.transform.rend.material.color.a = 1;
 		keyControll = false;
 	}
 

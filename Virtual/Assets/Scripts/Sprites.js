@@ -2,8 +2,13 @@ public	var uvAnimationTileX 		: int;										// número de colunas da sprite
 public	var uvAnimationTileY 		: int;										// número de linhas da sprite
 public	var framesPerSecond 		: float;										// frames por segundo
 
+
+public var rend: Renderer;
+
 function Start()
 {
+
+	rend = GetComponent.<Renderer>();
 	if (this.transform.name == "ButtonAnim_Não" || this.transform.name == "ButtonAnim_Não" || this.transform.name == "ButtonAnim")
 	{
 		uvAnimationTileX	= 1;
@@ -26,5 +31,5 @@ function Update ()
 		//var offset = Vector2 (uIndex * size.x, 1.0 - size.y - vIndex * size.y);				// criando o offset
 	 
 		//renderer.material.SetTextureOffset ("_MainTex", offset);							// setando offset da textura
-		renderer.material.SetTextureScale ("_MainTex", size);								// setando escada da textura
+		rend.material.SetTextureScale ("_MainTex", size);								// setando escada da textura
 }
