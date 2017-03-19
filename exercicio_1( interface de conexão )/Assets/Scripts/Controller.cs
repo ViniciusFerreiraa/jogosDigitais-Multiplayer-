@@ -1,20 +1,22 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Collections;
+using UnityEngine.UI; // Required when Using UI elements.
 
 public class Controller : MonoBehaviour {
 
-	public string userName;
+	// -----------------------------------
+	public string nickName;
 
-	public GameObject connectOnServer;
-	public GameObject connectCloud;
-	public GameObject listLobs;
+	// -----------------------------------
+	public string serverIp;
+	public string port;
 
-	private Vector2 centerCanvas;
+
+	// -----------------------------------
+	public string codeCloud;
 
 	// Use this for initialization
 	void Start () {
-		centerCanvas = new Vector2((Screen.width / 2), (Screen.height / 2));
 	}
 	
 	// Update is called once per frame
@@ -23,18 +25,12 @@ public class Controller : MonoBehaviour {
 	}
 
 
-	public void callConnectOnServer(){
-		RectTransform rectSize = (RectTransform)connectOnServer.transform;
-		Debug.Log (rectSize.rect.width / 2);
-		Debug.Log (rectSize.rect.height / 2);
-
-		connectOnServer.transform.position.x = centerCanvas.x;
-		connectOnServer.transform.position.y = centerCanvas.y;
-	}
-
-	public void callConnectCloud(){
-	}
-
-	public void callListLobs(){
+	// status do game --------------------
+	// -----------------------------------
+	public void stats(){
+		Debug.Log ("nome do jogador = " + nickName);
+		Debug.Log ("IP do servidor = " + serverIp);
+		Debug.Log ("Porta = " + port);
+		Debug.Log ("Código da nuvem = " + codeCloud);
 	}
 }

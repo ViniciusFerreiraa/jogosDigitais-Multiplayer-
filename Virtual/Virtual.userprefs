@@ -1,13 +1,8 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Teclado.js">
+﻿<Properties StartupItem="Assembly-UnityScript.unityproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AnimationMovePlanes.js">
     <Files>
-      <File FileName="Assets\Scripts\RandomLvl.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Teclado.js" Line="71" Column="24" />
-      <File FileName="Assets\Scripts\Menu.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AnimationMovePlanes.js" Line="65" Column="3" />
-      <File FileName="Assets\Scripts\Pause.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AnimationMovePlanes.js" Line="72" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
