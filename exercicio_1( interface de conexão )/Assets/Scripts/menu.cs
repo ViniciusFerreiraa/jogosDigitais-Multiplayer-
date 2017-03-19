@@ -124,6 +124,9 @@ public class menu : MonoBehaviour {
 		else {
 			menuServer.transform.position = new Vector3 ((Screen.width / 2 + 634 / 2), (Screen.height / 2 + 305 / 2), 0);
 			menuInitial.transform.position = new Vector3 ((Screen.width*2), (Screen.height), 0);
+
+
+			checkName.GetComponent<Text> ().color = new Color (2, 158, 42, 0);
 		}
 	}
 
@@ -136,6 +139,8 @@ public class menu : MonoBehaviour {
 		else {
 			menuCloud.transform.position = new Vector3 ((Screen.width / 2 + 634 / 2), (Screen.height / 2 + 305 / 2), 0);
 			menuInitial.transform.position = new Vector3 ((Screen.width*2), (Screen.height), 0);
+
+			checkName.GetComponent<Text> ().color = new Color (2, 158, 42, 0);
 		}
 	}
 
