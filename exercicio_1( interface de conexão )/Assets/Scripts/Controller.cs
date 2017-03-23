@@ -28,7 +28,7 @@ public class Controller : MonoBehaviour {
 	// status do game --------------------
 	// -----------------------------------
 	public void stats(){
-		Debug.Log ("nome do jogador = " + nickName);
+		Debug.Log ("nome do jogador = " + PhotonNetwork.playerName);
 		Debug.Log ("IP do servidor = " + serverIp);
 		Debug.Log ("Porta = " + port);
 		Debug.Log ("Código da nuvem = " + codeCloud);

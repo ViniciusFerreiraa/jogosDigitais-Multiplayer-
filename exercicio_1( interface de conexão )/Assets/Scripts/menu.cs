@@ -63,9 +63,12 @@ public class menu : MonoBehaviour {
 				checkName.GetComponent<Text> ().text = "Nick inserido com sucesso";
 				checkName.GetComponent<Text> ().color = new Color (2, 158, 42, 1);
 
+				PhotonNetwork.playerName = nickNameTemp;
+
 				scriptController.nickName = nickNameTemp;
 				hideInsertName ();
-			} else {
+			}
+			else{
 				checkName.GetComponent<Text> ().text = "Alguém já está usando este nick";
 				checkName.GetComponent<Text> ().color = new Color (255, 0, 0, 1);
 			}
@@ -106,6 +109,8 @@ public class menu : MonoBehaviour {
 
 		if (codeCloudTemp != "") {
 			scriptController.codeCloud = codeCloudTemp;
+			PhotonNetwork.ConnectToBestCloudServer(	"1.0" );
+
 			callListLobs ();
 		}
 		else {
