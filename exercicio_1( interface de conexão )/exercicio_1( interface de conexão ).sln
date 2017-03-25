@@ -1,11 +1,11 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercicio_1( interface de conexão )", "Assembly-CSharp-firstpass.csproj", "{E9EC6663-E990-108F-9665-09CA67E3800D}"
+# Visual Studio 2008
+
+Project("{ABD310C0-1E40-D869-AE8D-E1B5F1EB6909}") = "exercicio_1( interface de conexão )", "Assembly-CSharp-firstpass.csproj", "{E9EC6663-E990-108F-9665-09CA67E3800D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercicio_1( interface de conexão )", "Assembly-CSharp.csproj", "{43C3DA6E-1F3A-8776-0AA0-6307157C846B}"
+Project("{ABD310C0-1E40-D869-AE8D-E1B5F1EB6909}") = "exercicio_1( interface de conexão )", "Assembly-CSharp.csproj", "{43C3DA6E-1F3A-8776-0AA0-6307157C846B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercicio_1( interface de conexão )", "Assembly-CSharp-Editor.csproj", "{3F91B7EF-6F5C-032D-13E4-C67EE72ABE34}"
+Project("{ABD310C0-1E40-D869-AE8D-E1B5F1EB6909}") = "exercicio_1( interface de conexão )", "Assembly-CSharp-Editor.csproj", "{3F91B7EF-6F5C-032D-13E4-C67EE72ABE34}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
