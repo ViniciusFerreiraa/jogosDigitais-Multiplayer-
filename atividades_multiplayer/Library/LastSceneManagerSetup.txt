@@ -1,0 +1,4 @@
+sceneSetups:
+- path: "Assets/Main/Scenes/Instancia\xE7\xE3o e sincroniza\xE7\xE3o b\xE1sica.unity"
+  isLoaded: 1
+  isActive: 1
